@@ -71,7 +71,7 @@ res <- results(dds)
 res2 <-as.data.frame(res)
 
 
-## Daphne's helping code
+## Selecting protein coding RNAs
 
 ensembl <- useMart("ensembl")
 ensembl = useDataset(dataset="hsapiens_gene_ensembl",mart=ensembl)
